@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ebf1ff;
+}
+
+html.dark {
+  background-color: #0f1521;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Hind", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.custom-inp {
+  background: #0f1521;
+  box-shadow: inset -24px 4px 22px 11px rgba(54, 50, 255, 0.25),
+    inset 128px 4px 27px rgba(43, 0, 217, 0.25),
+    inset 0px 4px 14px 6px rgba(1, 63, 157, 0.4);
+}
+
+.custom-sper {
+  background: linear-gradient(
+    172.28deg,
+    #dc9e00 5.97%,
+    rgba(255, 243, 135, 0.64) 55.32%,
+    #f0c11b 103.95%
+  );
+  box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.25),
+    inset 0px -4px 2px 5px rgba(242, 116, 0, 0.28);
+}
+.test0f {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+}
