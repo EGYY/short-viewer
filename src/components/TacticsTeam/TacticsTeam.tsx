@@ -131,7 +131,7 @@ export default function TecticsTeam() {
       </div>
       {window.location.pathname.includes('sponsor') && (
         <div className={'flex  flex-wrap gap-3'}>
-          {testLinks.map((image, idx) => {
+          {sponsors.map((image, idx) => {
             return (
               <img
                 key={`${image.name}-${idx}`}
