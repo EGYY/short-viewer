@@ -7,8 +7,8 @@ import axios from "axios";
 
 // Prod
 
-export const baseURL = "https://platform.smrtstats.com:8888/api/v1";
-export const url = "https://platform.smrtstats.com:8888";
+export const baseURL = "https://platform.smrtstats.com:443/api/v1";
+export const url = "https://platform.smrtstats.com:443";
 const langURL = 'https://lexicon.smrtstats.com/api'
 
 export const instance = axios.create({
